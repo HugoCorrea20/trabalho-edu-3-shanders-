@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: teste
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: galaxia
+  m_Shader: {fileID: 4800000, guid: 1fbfd06c068133f418b4f986129186f5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -27,13 +27,9 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _BumpRamp:
-        m_Texture: {fileID: 2800000, guid: 706d7187287392c44a6cae3d06ef6195, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpTex:
-        m_Texture: {fileID: 2800000, guid: 041fecb5cfce1f94a89c5ae1e40e95a4, type: 3}
-        m_Scale: {x: 1, y: 1}
+    - _DepthRampTex:
+        m_Texture: {fileID: 2800000, guid: a6bf1b39b480d89408fea645f866a475, type: 3}
+        m_Scale: {x: 1.36, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
@@ -51,17 +47,25 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _FreezeTex:
-        m_Texture: {fileID: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: feb75dc3c712da64187070bb52d3ebd4, type: 3}
+        m_Scale: {x: 3.64, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskReplace:
+        m_Texture: {fileID: 2800000, guid: feb75dc3c712da64187070bb52d3ebd4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: e849dac549c990149b0718272f436895, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: a1fd4b1574260884da8d11ce8739151c, type: 3}
+        m_Scale: {x: 5.16, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
@@ -71,36 +75,36 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _RampTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _DepthFactor: 1.12
     - _DetailNormalMapScale: 1
-    - _DistortStrength: 1
+    - _DistortStrength: 1.49
     - _DstBlend: 0
-    - _EdgeThickness: 1
-    - _FreezeAmount: 0
+    - _ExtraHeight: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OutlineDot: -0.37
-    - _OutlineExtrusion: 0
     - _Parallax: 0.02
+    - _Res: 8.51
     - _SmoothnessTextureChannel: 0
-    - _SnowLevel: 1
     - _SpecularHighlights: 1
+    - _Speed: 1
     - _SrcBlend: 1
     - _UVSec: 0
+    - _WaveAmp: 0.2
+    - _WaveSpeed: 1
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskScale: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

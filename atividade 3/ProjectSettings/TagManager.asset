@@ -9,6 +9,8 @@ TagManager:
   - celEffects
   - neve
   - galaxia
+  - vidro
+  - agua
   layers:
   - Default
   - TransparentFX

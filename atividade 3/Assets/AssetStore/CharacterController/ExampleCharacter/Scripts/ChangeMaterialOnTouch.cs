@@ -6,6 +6,8 @@ public class ChangeMaterialOnTouch : MonoBehaviour
     public Material celEffects;
     public Material galaxia;
     public Material neve;
+    public Material vidro;
+    public Material agua;
     public MeshRenderer OLDMATERIAL;
     public MeshRenderer oldMAterial2;
 
@@ -34,6 +36,16 @@ public class ChangeMaterialOnTouch : MonoBehaviour
         {
             OLDMATERIAL.material = galaxia;
             oldMAterial2 .material = galaxia;
+        }
+        if(collision.CompareTag("vidro"))
+        {
+            OLDMATERIAL.material = vidro;
+            oldMAterial2.material = vidro;
+        }
+        if(collision.CompareTag("agua"))
+        {
+            OLDMATERIAL .material = agua;
+            oldMAterial2.material = agua;
         }
     }
     
